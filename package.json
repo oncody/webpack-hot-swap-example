@@ -1,0 +1,16 @@
+{
+  "name": "webpack-hot-swap",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --hot --mode=development"
+  },
+  "author": "Cody Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  }
+}
